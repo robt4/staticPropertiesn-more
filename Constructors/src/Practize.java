@@ -9,11 +9,17 @@ public class Practize {
          int x=0;
          Hha num=new Hha();                         //empty constructor accesing 
          Hha nm=new Hha("fear");                    //Accesing constructor and passing in a string;
+         num.s="fell: ";
+         nm.s="what: ";
+        
+         nm.t=80006;                                //assignining interger  object          
          num.d();                                   //accesing the function in hha
          Statics.fell=34;                             //Accesing statics fell variable without an object
 	     Statics.ki();                               //Accessing a static method no need to create an object
 	     Statics jav=new Statics();
 	     jav.getname();                              //to access the private
+	     Hha y=new Hha(num.s);
+	    // Hha nu=new Hha(); 
 	}
 
 }
